@@ -9,17 +9,6 @@
 #include <memory>
 
 
-// #include <typeinfo>
-
-// template<typename T>
-// bool is_vector(const T& var) {
-//     return typeid(var) == typeid(std::vector<typename T::value_type>);
-// }
-
-// template<typename T>
-// bool is_matrix(const T& var) {
-//     return typeid(var) == typeid(std::vector<std::vector<typename T::value_type>>);
-// }
 
 typedef std::vector<double> Vector;
 typedef std::vector<Vector> Matrix;
